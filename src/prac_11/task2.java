@@ -15,7 +15,7 @@ public class task2 {
         System.out.println("enter year: ");
         date1.set(Calendar.YEAR, in.nextInt());
         System.out.println("enter month: ");
-        date1.set(Calendar.MONTH, in.nextInt());
+        date1.set(Calendar.MONTH, in.nextInt()-1);
         System.out.println("enter day of month: ");
         date1.set(Calendar.DAY_OF_MONTH, in.nextInt());
 

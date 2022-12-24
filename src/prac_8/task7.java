@@ -1,12 +1,8 @@
 package prac_8;
 
 import java.util.*;
-
 public class task7 {
 
-
-    public class Main
-    {
         public static void factorize(int n,int k)
         {
             if (k>n) return;
@@ -20,13 +16,12 @@ public class task7 {
             }
             factorize(n,k+1);
         }
-
         public static void main(String[] args) {
             Scanner inp = new Scanner(System.in);
             int n;
-            System.out.print("n=");
+            System.out.print("n = ");
             n=inp.nextInt();
             factorize(n,2);
         }
     }
-}
+

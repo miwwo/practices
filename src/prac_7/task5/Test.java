@@ -36,8 +36,8 @@ public class Test implements Stringable {
 
     public static void main(String[] args) {
         Stringable test = new Test();
-        System.out.println(test.char_counter("abs cc dd  "));
-        System.out.println(test.odd_positioner("abc"));
-        System.out.println(test.reverser("yelyah"));
+        System.out.println("Number of chars: " + test.char_counter("i love Java"));
+        System.out.println(test.odd_positioner("aajhdajhdjahsdkajd"));
+        System.out.println("Reversed line: " + test.reverser("i love Java"));
     }
 }

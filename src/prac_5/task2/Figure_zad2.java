@@ -121,6 +121,3 @@ public class Figure_zad2 extends JFrame{
 
 }
 
-  /*  public static void main(String args[]) {
-        Figure_zad2 app = new Figure_zad2();
-    }*/

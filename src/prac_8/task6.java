@@ -22,7 +22,7 @@ public class task6 {
         Scanner in = new Scanner(System.in);
         System.out.println("enter number: ");
         int x = in.nextInt();
-
+        System.out.println("The number is prime? - ");
         ans = prime(x,1);
         if(ans)
             System.out.println("YES");

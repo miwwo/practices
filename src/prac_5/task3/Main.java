@@ -27,4 +27,4 @@ public class Main {
     }
 }
 
-//C:\Users\gemmi\Desktop\моя помойка\жесть для ваерочк.png
+//C:\Users\gemmi\Desktop\моя помойка\жесть для ваерочк.jpg
