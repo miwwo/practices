@@ -12,49 +12,49 @@ public class task5 {
         testAL.add(1);
         time = System.nanoTime() - time;
         System.out.print("arraylist add operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testLL.add(1);
         time = System.nanoTime() - time;
         System.out.print("linkedlist add operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testAL.add(0, 1);
         time = System.nanoTime() - time;
         System.out.print("arraylist insert operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testLL.add(0, 1);
         time = System.nanoTime() - time;
         System.out.print("linkedlist insert operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testAL.remove(0);
         time = System.nanoTime() - time;
         System.out.print("arraylist remove operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testLL.remove(0);
         time = System.nanoTime() - time;
         System.out.print("linkedlist remove operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testAL.get(0);
         time = System.nanoTime() - time;
         System.out.print("arraylist find operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
         time = System.nanoTime();
         testLL.add(0, 1);
         time = System.nanoTime() - time;
         System.out.print("linkedlist find operation time: ");
-        System.out.printf("%,9.3f ms\n", time /1_000_000.0);
+        System.out.printf("%,9.3f ns\n", time /1_000_000.0);
 
     }
 }
